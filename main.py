@@ -11,6 +11,7 @@ import plotly.express as px
 import pandas as pd
 
 # with st.container():
+st.subheader("EDA Fifa 2019")
 About = st.sidebar.checkbox(":blue[Show About FIFA 2019]")
 Planning = st.sidebar.checkbox(":orange[Show About Application]")
 About_me = st.sidebar.checkbox(":green[Show About me]")
@@ -64,7 +65,6 @@ if About_me :
     - Osama SAAD
     - Student Data Scaience & Machine Learning @ Epsilon AI
     - Infor ERP Consaltant @ Ibnsina Pharma
-    - Email : osamasamnudi86@gamil.com
     - LinkedIn: 
         https://www.linkedin.com/in/ossama-ahmed-saad-525785b2
     - Github : 
@@ -153,7 +153,7 @@ with Nat_club:
         st.subheader('Club Analysis (Bar Plot)')
         cat_columns_3 = ['Please select','value','value_log','release clause','release_clause_log','wage', 'weight','height']
         col1_select_3 = st.selectbox("Club Analysis" , cat_columns_3)
-        if col1_select_2 == 'Please select':
+        if col1_select_3 == 'Please select':
             st.write(":red[Please Choise a column from the list:]")
         else:
             msk_3 = df.groupby(['club'])[col1_select_3].mean().nlargest(10).sort_values().reset_index(name='count')

@@ -64,7 +64,7 @@ if About_me :
     st.sidebar.write("""
     - Osama SAAD
     - Student Data Scaience & Machine Learning @ Epsilon AI
-    - Infor ERP Consaltant @ Ibnsina Pharma
+    - Infor ERP (EAM/M3/IDM) key Business.User | DMS, Assets and System Control Supervisor @ Ibnsina Pharma
     - LinkedIn: 
         https://www.linkedin.com/in/ossama-ahmed-saad-525785b2
     - Github : 
